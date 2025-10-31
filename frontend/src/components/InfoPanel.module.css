@@ -1,0 +1,28 @@
+/* src/components/InfoPanel.module.css */
+.panel {
+    background-color: #f9fafb; /* Gray-50 */
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--border-color);
+    height: 100%;
+  }
+  .title {
+    font-size: 1.25rem; font-weight: 600; color: var(--text-dark);
+    margin-bottom: 1rem; border-bottom: 1px solid var(--border-color);
+    padding-bottom: 0.75rem;
+  }
+  .placeholder, .loader {
+    text-align: center; color: var(--text-light); padding: 2rem 0;
+  }
+  .loader { font-weight: 500; color: var(--text-medium); }
+  .dataSection, .resultSection { margin-bottom: 1.5rem; }
+  .dataSection h4, .resultSection h4 {
+    font-size: 1rem; font-weight: 600; color: var(--text-dark); margin-bottom: 0.5rem;
+  }
+  .dataSection p, .resultSection li {
+    font-size: 0.875rem; color: var(--text-medium); margin-bottom: 0.25rem; line-height: 1.5;
+  }
+  .resultSection ul { list-style: none; padding: 0; }
+  .error { color: #ef4444; font-weight: 500; }
+  .violation { color: #ef4444; font-weight: 700; }
+  .compliant { color: #10b981; font-weight: 700; }

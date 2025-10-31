@@ -1,0 +1,11 @@
+/* src/components/Footer.module.css */
+.footer {
+  background-color: var(--background-white);
+  padding: 1rem 0;
+  border-top: 1px solid var(--border-color);
+}
+.footerText {
+  text-align: center;
+  font-size: 0.875rem;
+  color: var(--text-light);
+}

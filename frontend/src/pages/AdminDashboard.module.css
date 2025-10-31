@@ -1,0 +1,126 @@
+.adminContainer {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background: #f8f9fb;
+}
+
+.listPanel {
+  width: 30%;
+  background: #fff;
+  border-right: 1px solid #ddd;
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+.detailPanel {
+  flex: 1;
+  padding: 1.5rem;
+  background: #fafafa;
+  overflow-y: auto;
+}
+
+.panelTitle {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-bottom: 2px solid #0077cc;
+  padding-bottom: 0.5rem;
+}
+
+.reportList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.reportItem {
+  padding: 0.8rem;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  background: #fff;
+  transition: all 0.2s ease;
+}
+
+.reportItem:hover {
+  background: #eaf3ff;
+}
+
+.reportItem.active {
+  border-color: #0077cc;
+  background: #f0f8ff;
+}
+
+.reportAddress {
+  font-weight: 500;
+  color: #333;
+}
+
+.reportStatus {
+  font-size: 0.85rem;
+  color: #777;
+}
+
+.detailItem {
+  margin-bottom: 1rem;
+}
+
+.detailItem strong {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.photoGallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.photoGallery img {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  object-fit: cover;
+  border: 1px solid #ccc;
+  transition: transform 0.2s ease;
+}
+
+.photoGallery img:hover {
+  transform: scale(1.05);
+}
+
+.dropdown {
+  margin-top: 0.5rem;
+  padding: 0.4rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.deleteButton {
+  background: #e63946;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.deleteButton:hover {
+  background: #c53030;
+}
+
+.placeholder {
+  color: #777;
+  text-align: center;
+  margin-top: 40%;
+}
+
+.loading {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.2rem;
+  color: #555;
+}

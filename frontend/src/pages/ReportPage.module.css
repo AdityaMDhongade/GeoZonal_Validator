@@ -1,0 +1,33 @@
+/* src/pages/ReportPage.module.css */
+.pageContainer {
+    background-color: var(--background-white);
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-lg);
+  }
+  
+  .contentGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  @media (min-width: 1024px) {
+    .contentGrid {
+      grid-template-columns: 2fr 1fr;
+    }
+  }
+  
+  .mapColumn {
+    min-height: 80vh; /* Make map taller */
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+    border: 1px solid var(--border-color);
+  }
+  
+  .analysisColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }

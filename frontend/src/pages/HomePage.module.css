@@ -1,0 +1,58 @@
+/* src/pages/HomePage.module.css */
+.homeContainer {
+    background-color: var(--background-white);
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-lg);
+    text-align: center;
+  }
+  
+  .mainHeading {
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: var(--text-dark);
+    margin-bottom: 1rem;
+  }
+  
+  .subHeading {
+    font-size: 1.125rem;
+    color: var(--text-medium);
+    margin-bottom: 1.5rem;
+    max-width: 42rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .buttonGroup {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .primaryButton, .secondaryButton {
+    display: inline-block;
+    font-weight: 700;
+    padding: 0.75rem 1.5rem;
+    border-radius: var(--border-radius);
+    text-decoration: none;
+    transition: background-color 0.2s;
+  }
+  
+  .primaryButton {
+    background-color: var(--primary-color);
+    color: white;
+  }
+  
+  .primaryButton:hover {
+    background-color: var(--primary-hover-color);
+  }
+  
+  .secondaryButton {
+    background-color: var(--secondary-color);
+    color: white;
+  }
+  
+  .secondaryButton:hover {
+    background-color: var(--secondary-hover-color);
+  }
